@@ -19,34 +19,36 @@ body {
 h2 {
     background-image: url("assets/dark green tileable background decoration.svg");
     background-position-y: 83rem;
+    background-size: 85rem;
     padding: 1.5rem 2rem;
     font-size: 5rem;
     color: white;
     padding-left: 5rem;
     box-shadow: #00000056 -0px 0px 20px 0px;
-    background-size: 85rem;
 }
 
-nav {
+.navbar {
     background-image: url("assets/light purple tileable background decoration.svg");
     background-position-y: -5rem;
-    padding: 16px 10px 13px 24px;
-    font-size: 4rem;
+    padding: 16px 16px 13px 24px;
+    font-size: 3rem;
     color: #430766;
     /* background-size: 390rem; */
     display: flex;
     box-shadow: #00000036 0px 5px 20px 0px;
-
+    position: sticky;
+    top: 0;
 }
 
-nav img {
+.navbar img {
     object-fit: cover;
-    width: 250px;
-    padding-right: 450px;
+    width: 200px;
+    padding-right: 15dvw;
 }
 
-nav ul {
-    padding: 2rem 6rem;
+.navbar ul {
+    padding: 2rem;
+    padding-right: 6.5rem;
     margin-block: 0;
     display: grid;
     align-content: center;
@@ -55,4 +57,24 @@ nav ul {
 
 a {
     all: unset;
+    cursor: pointer;
 }
+
+#navb {
+    display: flex;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 1020px) {
+    .navbar img {
+        padding-right: 2dvw;
+    }
+}
+
+/* @media screen and (max-width: 885px) {
+    nav img {
+        padding-right: 2dvw;
+    }
+} */
