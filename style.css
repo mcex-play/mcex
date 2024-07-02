@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+
+html {
+    /* 10px */
+    font-size: 62.5%;
+    font-family: "Hammersmith One", Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+body {
+    /* 16px */
+    font-size: 1.6rem;
+    height: 100dvh;
+    background: linear-gradient(90deg, #C6F6BA,#9DE48C);
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    background-image: url("../dark green tileable background decoration.svg");
+    background-position-y: 83rem;
+    padding: 1.5rem 2rem;
+    font-size: 5rem;
+    color: white;
+    padding-left: 5rem;
+    box-shadow: #00000056 -0px 0px 20px 0px;
+    background-size: 85rem;
+}
+
+nav {
+    background-image: url("../light purple tileable background decoration.svg");
+    background-position-y: -5rem;
+    padding: 16px 10px 13px 24px;
+    font-size: 4rem;
+    color: #430766;
+    /* background-size: 390rem; */
+    display: flex;
+    box-shadow: #00000036 0px 5px 20px 0px;
+
+}
+
+nav img {
+    object-fit: cover;
+    width: 250px;
+    padding-right: 450px;
+}
+
+nav ul {
+    padding: 2rem 6rem;
+    margin-block: 0;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
