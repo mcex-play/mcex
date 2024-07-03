@@ -36,8 +36,8 @@ header h1 {
   position: absolute;
   top: -0.5rem;
   right: 0;
-  margin-right: 2.5em;
-  height: 5em;
+  margin-right: 2.5rem;
+  height: 4em;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -74,7 +74,7 @@ nav {
   top: 100%;
   left: 0;
   background-image: url("assets/light purple tileable background decoration.svg");
-    background-position-y: -17.9rem;
+    background-position-y: -16rem;
   width: 100%;
   transform: scale(1, 0);
   transform-origin: top;
