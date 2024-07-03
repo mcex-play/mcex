@@ -30,7 +30,7 @@ h2 {
 .navbar {
     background-image: url("assets/light purple tileable background decoration.svg");
     background-position-y: -5rem;
-    padding: 16px 16px 13px 24px;
+    /* padding: 16px 16px 13px 24px; */
     font-size: 3rem;
     color: #430766;
     /* background-size: 390rem; */
@@ -44,6 +44,7 @@ h2 {
     object-fit: cover;
     width: 200px;
     padding-right: 15dvw;
+    padding-left: 2dvw;
 }
 
 .navbar ul {
