@@ -161,7 +161,7 @@ a {
     height: 90dvh;
     background-image: url("assets/1st bg.png");
     /* background-size: 100dvw; */
-    background-position-x: right;
+    background-position-x: center;
     box-shadow: var(--shadow);
 }
 
