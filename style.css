@@ -320,7 +320,7 @@ footer {
     height: 20dvh;
     object-fit: cover;
     border-radius: .5rem;
-    transition: .3s;
+    transition: .15s;
     cursor: pointer;
   }
   

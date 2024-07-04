@@ -11,3 +11,11 @@ document.querySelectorAll("#gallery img").forEach(element => {
         }
     })
 })
+
+const toggleButton = document.querySelector("label.nav-toggle-label")
+const navList = document.querySelector("#nav-toggle")
+
+toggleButton.addEventListener('click', (evt) => {
+    evt.preventDefault();
+    navList.classList.toggle('active')
+})
