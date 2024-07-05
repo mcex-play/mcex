@@ -32,7 +32,8 @@ h2 {
     font-size: 5rem;
     color: white;
     padding-left: var(--side-margin);
-    box-shadow: var(--shadow)
+    box-shadow: var(--shadow);
+    scroll-margin-top: 12rem;
 }
 
 h3 {
