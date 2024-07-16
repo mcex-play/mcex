@@ -24,7 +24,7 @@ body {
     height: auto;
 }
 
-h2 {
+.h2 {
     background-image: url("assets/dark green tileable background decoration.svg");
     background-position-y: 83rem;
     background-size: 85rem;
@@ -36,7 +36,7 @@ h2 {
     scroll-margin-top: 12rem;
 }
 
-h3 {
+.h3 {
     text-align: center;
     font-size: 4rem;
     color: #E9E5FF;
@@ -160,7 +160,7 @@ a {
 
 #main-bg-image {
     height: 90dvh;
-    background-image: url("assets/1st bg.png");
+    background-image: url("assets/1st bg.webp");
     /* background-size: 100dvw; */
     background-position-x: center;
     box-shadow: var(--shadow);
@@ -223,8 +223,9 @@ footer {
 .credits p {
     color: #1E0042;
     margin: 1rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
+    padding-block: 0.45rem;
 }
 
 @media screen and (min-width: 800px) {
