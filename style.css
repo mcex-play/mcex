@@ -121,6 +121,7 @@ a {
     margin: 0;
     background-color: var(--dark-purple);
     line-height: 2;
+    box-shadow: var(--shadow);
 }
 
 @media screen and (min-width: 800px) {
