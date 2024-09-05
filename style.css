@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+@import url("variables.css");
 
 :root {
     scroll-behavior: smooth;
@@ -47,7 +48,7 @@ body {
     background-position-y: -5rem;
     /* padding: 16px 16px 13px 24px; */
     font-size: 3rem;
-    color: #430766;
+    color: var(--mid-purple);
     /* background-size: 390rem; */
     display: flex;
     box-shadow: #00000036 0px 5px 20px 0px;
@@ -111,6 +112,17 @@ a {
     justify-content: center;
 }
 
+#about {
+    scroll-margin-top: 12rem;
+}
+
+.text {
+    padding: 9rem var(--side-margin);
+    margin: 0;
+    background-color: var(--dark-purple);
+    line-height: 2;
+}
+
 @media screen and (min-width: 800px) {
     #social {
         flex-direction: row;
@@ -120,6 +132,10 @@ a {
     }
     #social div {
         display: block;
+    }
+    .text {
+        scroll-margin-top: 12rem;
+        padding: 9rem calc(var(--side-margin) + 5rem);
     }
 }
 
@@ -138,14 +154,32 @@ a {
 } */
 
 .video {
-    /* width: 100dvw; */
-    height: calc(100dvw * (9/16));
+    /* width: calc(100dvw - 35px);
+    height: calc(100dvh); */
+    /* width: 100%; */
     display: grid;
     justify-content: center;
     align-items: center;
-    background-color: #1E0042;
+    background-color: var(--dark-purple);
     box-shadow: var(--shadow);
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 56.25%;
+}
 
+#video-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+
+.video-container {
+    width: 100%;
+  /* max-width: 600px; */
 }
 
 .video-h3 {
@@ -176,7 +210,7 @@ a {
     /* position: absolute; */
     /* top: 18dvh; */
     padding: 2rem;
-    color: #F1FFF1;
+    color: var(--almost-white-g);
     background-image: url("assets/darker\ green\ tileable\ background\ decoration.svg");
     background-size: 1000px;
     box-shadow: #00000036 0px 5px 20px 0px;
@@ -188,6 +222,7 @@ p {
     text-align: justify;
     color: #f1fff1ea;
     margin: 4rem var(--side-margin);
+    
 }
 
 p a {
@@ -209,7 +244,7 @@ footer {
 }
 
 #footer p {
-    color: #1E0042;
+    color: var(--dark-purple);
     display: block;
     margin: 2rem 0;
     width: 100%;
@@ -221,7 +256,7 @@ footer {
 }
 
 .credits p {
-    color: #1E0042;
+    color: var(--dark-purple);
     margin: 1rem;
     font-size: 1.2rem;
     text-align: center;

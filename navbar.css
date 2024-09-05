@@ -1,3 +1,5 @@
+@import url("variables.css");
+
 /*#region code stolen from kevin powel hehe
  navigation styles start here */
 
@@ -47,7 +49,7 @@ header h1 {
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
   display: block;
-  background: #430766;
+  background: var(--mid-purple);
   height: 3px;
   width: 1.2em;
   border-radius: 2px;
@@ -92,7 +94,7 @@ nav li {
 }
 
 nav li:hover {
-    color: #8c00dd;
+    color: var(--bright-purple);
 }
 
 
