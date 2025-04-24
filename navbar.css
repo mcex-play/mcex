@@ -93,7 +93,7 @@ nav li {
   padding: 1em 0 1em 0;
 }
 
-nav li:hover {
+nav li:hover, nav li:focus {
     color: var(--bright-purple);
 }
 
@@ -183,7 +183,7 @@ nav a:hover {
     transition: transform ease-in-out 250ms;
   }
 
-  nav a:hover::before {
+  nav a:hover::before, nav a:focus::before {
     transform: scale(1, 1);
   }
 }
