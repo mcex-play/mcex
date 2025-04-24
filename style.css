@@ -79,6 +79,7 @@ a {
 
 #navb {
     display: flex;
+    width: 100%;
     width: -webkit-fill-available;
     justify-content: space-between;
 }
@@ -389,3 +390,16 @@ footer {
     }
   }
 
+
+
+  #kofiframe {
+    border: none;
+    width: 100%;
+    /* padding:4px; */
+    padding-top: 10rem;
+    background: transparent;
+  }
+
+  .meepa-green {
+    background: var(--meepa-green) !important;
+  }
