@@ -19,8 +19,3 @@ toggleButton.addEventListener('click', (evt) => {
     evt.preventDefault();
     navList.classList.toggle('active')
 })
-
-
-const kofi = document.querySelector("#kofiframe")
-
-kofi.style.addClassName("meepa-green")
