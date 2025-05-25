@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McEx Play - Add Server To Minecraft</title>
+    <link rel="shortcut icon" href="assets/transparent favicon mcex 2.1.png" type="image/x-icon">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <!-- <div class="logo-container">
+        <img class="logo2" src="assets/transparent mcex 2.1.2.webp" alt="">
+    </div> -->
+
+    <div class="container">
+        <h1>
+            <img class="logo2" src="assets/transparent mcex 2.1.2.webp" alt="">
+            <span>Adding server to Minecraft<img class="loading-animation" src="assets/91.svg" alt=""></span>
+            
+        </h1>
+    </div>
+        
+
+    <script>
+        let text = window.location.search
+        const ip = text.replace("?ip=", "").replace(/\?port\=[0-9]*/, "")
+        const port = text.replace("?port=", "").replace(/\?ip\=[A-Za-z.]*/, "")
+        console.log(ip)
+        console.log(port)
+        console.log(`minecraft://?addExternalServer=${ip}|${ip}:${port}`)
+
+        // TURN ON OR OFF REDIRECT
+        //*
+        const MC = window.open(`minecraft://?addExternalServer=${ip}|${ip}:${port}`)
+        console.log("MC:", MC)
+
+        /setTimeout(() => {
+            window.location.replace("/")
+        }, 6000); //*/
+    </script>
+</body>
+</html>
