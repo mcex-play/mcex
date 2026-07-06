@@ -201,7 +201,7 @@ a {
 
 #main-bg-image {
     height: 90dvh;
-    background-image: url("assets/1st bg.webp");
+    background-image: url("assets/bg1.webp");
     /* background-size: 100dvw; */
     background-position-x: center;
     box-shadow: var(--shadow);
@@ -268,6 +268,7 @@ footer {
     font-size: 1.2rem;
     text-align: center;
     padding-block: 0.45rem;
+    width: 100%;
 }
 
 @media screen and (min-width: 800px) {
