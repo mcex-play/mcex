@@ -208,6 +208,7 @@ a {
     display: grid;
     align-items: center;
     justify-content: center;
+    background-size: cover;
 }
 
 #aside-text-1 {
